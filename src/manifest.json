@@ -1,0 +1,4 @@
+{
+    "namespace": "offline_UI",
+    "setup": "setup.mjs"
+}
