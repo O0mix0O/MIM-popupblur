@@ -37,6 +37,12 @@ export function setup(ctx) {
             toggleBlur(isAnyElementVisible);
         }
 
+        // Force an initial check when the game is first loaded to ensure the blur is applied
+        setTimeout(() => {
+            // Check for modals on initial load
+            checkModalVisibility();
+        }, 0);
+
         // Watch for dynamically added or removed elements and apply/remove the blur if necessary
         const observer = new MutationObserver((mutations) => {
             mutations.forEach((mutation) => {
