@@ -14,3 +14,5 @@ This mod adds a blur effect to the game's elements when any modal is visible. Th
 ## Acknowledgments
 
 - Thanks to the Melvor Idle community for supporting modding and making this mod possible!
+
+.
